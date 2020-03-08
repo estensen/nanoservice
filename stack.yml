@@ -6,5 +6,5 @@ functions:
   nanoservice:
     lang: go
     handler: ./nanoservice
-    image: nanoservice:latest
+    image: estensen/nanoservice:latest
 
