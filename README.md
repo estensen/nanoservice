@@ -5,9 +5,7 @@ Install [KinD](https://blog.alexellis.io/be-kind-to-yourself/) and create a clus
 
 Build function, push the image to an image registry and deploy the function:
 ```
-$ faas-cli build -f stack.yml
-$ faas-cli push -f stack.yml
-$ faas-cli deploy -f stack.yml
+$ faas-cli up
 ```
 
 ## Test function
